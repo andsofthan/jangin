@@ -32,10 +32,10 @@ img {
 }
 
 body {
-  font-family: "Roboto", "Noto Sans KR", sans-serif;
   color: #333;
-  background: #fff;
 }
+
+/*******************************************************/
 
 .mobile_gnb {
   display: none;
@@ -52,15 +52,15 @@ body {
   padding-left: 60px;
 }
 
-.chika_header>a {
+.chika_header > a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   z-index: 9999;
-}
-
-.chika_header>a img {
-  width: 273px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #fff;
+  font-weight: 900;
 }
 
 .chika_header .gnb {
@@ -397,10 +397,13 @@ body {
   border-top: 1px solid #eee;
 }
 
-.team_title {
-  max-width: 100%;
-  padding-top: 300px;
+#team h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  padding-top: 200px;
   text-align: center;
+  color: #fff;
 }
 
 .team_title img {
@@ -433,9 +436,8 @@ body {
   border-radius: 50%;
 }
 
-.team_mate .teamCon h3 {
+.team_mate .teamCon p {
   margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 /*******************************************************/
@@ -569,42 +571,16 @@ body {
   border-top: 1px solid #eee;
 }
 
-.chika_footer>a img {
-  max-width: 273px;
-}
-
-.chika_footer .footer_text div:first-child p {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 300;
+.chika_footer > a {
+  font-size: 40px;
   color: #fff;
-  margin-right: 20px;
-}
-
-.chika_footer .footer_text div:first-child p:last-child {
-  margin-right: 0px;
-}
-
-.chika_footer .footer_text div:last-child {
-  font-size: 14px;
-  font-weight: 300;
-  color: #666;
-}
-
-.chika_footer select {
-  width: 180px;
-  height: 40px;
-  border: none;
-  border-radius: 20px;
-  padding-left: 10px;
-  background: #fff url(/images/icon_arrow_down.png) no-repeat 92%;
-  appearance: none;
+  font-weight: 900;
 }
 
 /*******************************************************/
 
 @media (max-width: 1340px) {
-  .chika_header>a img {
+  .chika_header > a img {
     width: 150px;
   }
 
@@ -701,7 +677,7 @@ body {
     padding-left: 0;
   }
 
-  .chika_header>a {
+  .chika_header > a {
     padding-left: 16px;
   }
 
