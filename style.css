@@ -1037,7 +1037,7 @@ body {
   }
 
   #faq ul li .q p {
-    width: calc(100% - 48px);
+    width: calc(100% - 56px);
   }
 
   #faq ul li .q p::after {
@@ -1058,6 +1058,10 @@ body {
 
   #faq ul li .a span {
     font-size: 24px;
+  }
+
+  #faq ul li .a p {
+    width: calc(100% - 80px);
   }
 
   /***************************************************/
