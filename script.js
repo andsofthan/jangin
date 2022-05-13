@@ -77,4 +77,10 @@ $(function(){
     $('.mobile_gnb').stop().slideUp(300);
     $('.gnb_btn').removeClass('menu_on');
   });
+
+  $('.goTop').click(function(){
+    $('body, html').animate({
+      scrollTop : 0
+    });
+  });
 })
